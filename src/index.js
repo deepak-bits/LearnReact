@@ -1,3 +1,32 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import App from './projects/Quiz/App';
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<App />);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
 // // import './styleQuizzical.css';
@@ -16,36 +45,43 @@
 
 
 // import React from 'react';
-import { useState } from 'react';
-import ReactDOM from 'react-dom/client';
+// import { useState } from 'react';
+// import ReactDOM from 'react-dom/client';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function App() {
-    const [count, setCount] = useState(0);
-    const incrementCount = () => {
-        setCount(count+1);
-    }
-    const decrementCount = () => {
-        if(count > 0) setCount(count-1);
-    }
-    const resetCount = () => {
-        setCount(0);
-    }
-    return (
-        <div>
-            <h1>{count}</h1>
-            <button onClick={incrementCount}>+</button>
-            <button onClick={decrementCount}>-</button>
-            <button onClick={resetCount}>Reset</button>
-            {/* //Mush u der? */}
-        </div>
-    )
-}
+// function App() {
+//     const [count, setCount] = useState(0);
+//     const incrementCount = () => {
+//         setCount(count+1);
+//     }
+//     const decrementCount = () => {
+//         if(count > 0) setCount(count-1);
+//     }
+//     const resetCount = () => {
+//         setCount(0);
+//     }
+//     return (
+//         <div>
+//             <h1>{count}</h1>
+//             <button onClick={incrementCount}>+</button>
+//             <button onClick={decrementCount}>-</button>
+//             <button onClick={resetCount}>Reset</button>
+//             {/* //Mush u der? */}
+//         </div>
+//     )
+// }
 
-root.render(<App />);
+// root.render(<App />);
 
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// // import './index.css';
+// import App from './App';
 
-// h1 tag
-
-// increment, decrement, reset
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
